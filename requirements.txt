@@ -1,0 +1,7 @@
+icarogw @ git+https://github.com/inesbentara/icarogw_skymaps
+healpy
+h5py
+numpy
+scipy
+tqdm
+
