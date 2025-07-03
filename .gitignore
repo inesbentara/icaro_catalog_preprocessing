@@ -20,7 +20,6 @@ build/
 *.hdf5
 *.fits
 *.csv
-*.txt
 *.dat
 *.npy
 
