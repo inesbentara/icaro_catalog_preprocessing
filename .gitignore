@@ -6,16 +6,6 @@ __pycache__/
 # C extensions
 *.c
 
-# Virtual environment
-.venv/
-env/
-venv/
-ENV/
-.ipynb_checkpoints/
-*.egg-info/
-dist/
-build/
-
 # Data files (catalogs, pixel files, outputs, logs)
 *.hdf5
 *.fits
@@ -23,14 +13,12 @@ build/
 *.dat
 *.npy
 
-# Output folders (edit as needed)
-pixelated_gladep/
+# Ignore pipeline auto-generated scripts and batch files
+make_pixel_files.*
+get_scripts.*
+produce_cat.dag
+output/
 logs/
-review_material/
-GLADEp_final/
-*checkpoint*
-*tmp*
-*temp*
 
 # OS files
 .DS_Store
